@@ -11,7 +11,7 @@ The importance of backing up your website database is given. This script allows 
 
 Save this file as backup.py in your Django Root folder where manage.py is located on PythonAnywhere.
 
-Create a back up folder in your Django Root to store the backups. fixtures/ is what is commonly used.
+Create a back up folder in your Django Root to store the backups. fixtures/ is commonly used.
 
 Open the file, and then edit the top variables to work with your website. Also, change the python version at the very top of the file to match yours.
 
