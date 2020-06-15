@@ -16,9 +16,9 @@ Create a back up folder in your Django Root to store the backups. fixtures/ is c
 Open the backup.py file, and then edit the top variables to work with your website. Also, change the python version at the very top of the file to match yours.
 
 Then navigate to Tasks on PythonAnywhere. Enter...<br/>
-source virtualenvwrapper.sh && workon (YOUR VENV NAME) && (YOUR PYTHON VERSION) /home/(PYTHONANYWHERE USERNAME)/(DJANGO_ROOT_FOLDER)/backup.py
+**source virtualenvwrapper.sh && workon (YOUR VENV NAME) && (YOUR PYTHON VERSION) /home/(PYTHONANYWHERE USERNAME)/(DJANGO_ROOT_FOLDER)/backup.py**
 
 With this template, yours could look like...<br/>
-source virtualenvwrapper.sh && workon venv && python3.8 /home/samsuchin/mysite/backup.py
+**source virtualenvwrapper.sh && workon venv && python3.8 /home/samsuchin/mysite/backup.py**
 
 Enter the frequency and time to run the script, and then finally create it.
