@@ -13,7 +13,7 @@ Save this file as backup.py in your Django Root folder where manage.py is locate
 
 Create a back up folder in your Django Root to store the backups. fixtures/ is commonly used.
 
-Open the file, and then edit the top variables to work with your website. Also, change the python version at the very top of the file to match yours.
+Open the backup.py file, and then edit the top variables to work with your website. Also, change the python version at the very top of the file to match yours.
 
 Then navigate to Tasks on PythonAnywhere. Enter...<br/>
 source virtualenvwrapper.sh && workon (YOUR VENV NAME) && (YOUR PYTHON VERSION) /home/(PYTHONANYWHERE USERNAME)/(DJANGO_ROOT_FOLDER)/backup.py
