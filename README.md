@@ -17,10 +17,10 @@ Open the backup.py file, and then edit the top variables to work with your websi
 
 Then navigate to Tasks on PythonAnywhere. Enter...<br/>
 
-**source virtualenvwrapper.sh && workon (YOUR VENV NAME) && (YOUR PYTHON VERSION) /home/(PYTHONANYWHERE USERNAME)/(DJANGO_ROOT_FOLDER)/backup.py**
+<code>source virtualenvwrapper.sh && workon (YOUR VENV NAME) && (YOUR PYTHON VERSION) /home/(PYTHONANYWHERE USERNAME)/(DJANGO_ROOT_FOLDER)/backup.py</code>
 
 With this template, yours could look like...<br/>
 
-**source virtualenvwrapper.sh && workon venv && python3.8 /home/samsuchin/mysite/backup.py**
+<code>source virtualenvwrapper.sh && workon venv && python3.8 /home/samsuchin/mysite/backup.py</code>
 
 Enter the frequency and time to run the script, and then finally create it.
